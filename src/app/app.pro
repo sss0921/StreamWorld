@@ -8,18 +8,18 @@ LIBS += -L$$STREAMWORLD_LIB_PATH
 
 SOURCES += main.cpp \
     mainwindow.cpp \
-    listdialog.cpp \
-    videodialog.cpp
+    videodialog.cpp \
+    settingsdialog.cpp
 
 FORMS += \
     mainwindow.ui \
-    listdialog.ui \
-    videodialog.ui
+    videodialog.ui \
+    settingsdialog.ui
 
 HEADERS += \
     mainwindow.h \
-    listdialog.h \
-    videodialog.h
+    videodialog.h \
+    settingsdialog.h
 
 RESOURCES += \
     resource.qrc
