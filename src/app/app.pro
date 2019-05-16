@@ -14,3 +14,6 @@ FORMS += \
 
 HEADERS += \
     mainwindow.h
+
+RESOURCES += \
+    resource.qrc
