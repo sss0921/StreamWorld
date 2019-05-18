@@ -9,8 +9,8 @@ public:
     Station();
     Station(const QString &name, const QString &address);
 
-    Station station() const;
-    void setStatio(const Station &name);
+    QString station() const;
+    void setStation(const QString &station);
 
     QString name() const;
     void setName(const QString &name);
