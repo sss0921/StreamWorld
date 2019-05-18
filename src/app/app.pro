@@ -13,7 +13,9 @@ SOURCES += main.cpp \
     radiodialog.cpp \
     model/station.cpp \
     model/stationgroup.cpp \
+    model/stationlist.cpp \
     tools/textio.cpp
+
 
 FORMS += \
     mainwindow.ui \
@@ -28,7 +30,9 @@ HEADERS += \
     radiodialog.h \
     model/station.h \
     model/stationgroup.h \
+    model/stationlist.h \
     tools/textio.h
+
 
 RESOURCES += \
     resource.qrc
