@@ -21,7 +21,7 @@ public:
 
 private:
     QString m_groupName;
-    QVector<Station *> m_groupData;
+    QList<Station *> m_groupData;
 };
 
 #endif // STATIONGROUP_H
