@@ -96,12 +96,14 @@ void TextIo::closeFile()
 void TextIo::readData()
 {
     qCDebug(textIo) << "readData";
-    m_data.clear();
+    if (isOpenMode(QFile::ReadOnly)) {
+        m_data.clear();
 
-    while (!m_textStrem.atEnd())
-        m_data.append(m_textStrem.readLine());
+        while (!m_textStrem.atEnd())
+            m_data.append(m_textStrem.readLine());
 
-    closeFile();
+        closeFile();
+    }
 }
 
 bool TextIo::isOpenMode(QFile::OpenMode openMode)
