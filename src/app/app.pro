@@ -11,7 +11,8 @@ SOURCES += main.cpp \
     videodialog.cpp \
     settingsdialog.cpp \
     radiodialog.cpp \
-    model/station.cpp
+    model/station.cpp \
+    model/stationgroup.cpp
 
 FORMS += \
     mainwindow.ui \
@@ -24,7 +25,8 @@ HEADERS += \
     videodialog.h \
     settingsdialog.h \
     radiodialog.h \
-    model/station.h
+    model/station.h \
+    model/stationgroup.h
 
 RESOURCES += \
     resource.qrc
