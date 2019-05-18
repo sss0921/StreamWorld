@@ -14,14 +14,16 @@ SOURCES += main.cpp \
     model/station.cpp \
     model/stationgroup.cpp \
     model/stationlist.cpp \
-    tools/textio.cpp
+    tools/textio.cpp \
+    widget/adddialog.cpp
 
 
 FORMS += \
     mainwindow.ui \
     videodialog.ui \
     settingsdialog.ui \
-    radiodialog.ui
+    radiodialog.ui \
+    widget/adddialog.ui
 
 HEADERS += \
     mainwindow.h \
@@ -31,7 +33,8 @@ HEADERS += \
     model/station.h \
     model/stationgroup.h \
     model/stationlist.h \
-    tools/textio.h
+    tools/textio.h \
+    widget/adddialog.h
 
 
 RESOURCES += \
